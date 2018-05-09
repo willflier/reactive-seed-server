@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web:
+          reactive:
+            function: INFO
+debug: false
+server:
+  port: 8080
