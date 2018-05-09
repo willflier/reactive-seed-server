@@ -1,6 +1,6 @@
-# MiXiT website
+# Reactive Server
 
-This project purpose is to power the Reactive Server.
+This project purpose is to power the Reactive Server Seed.
 
 ## Software design
 
