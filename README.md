@@ -27,6 +27,7 @@ developed with Spring Boot 2, Spring WebFlux and Kotlin can look like:
 ### TODO
 
  - Support for Spring Cloud
+ - Support for Docker
  - Support for Reactive Security
 
 ## Developer guide
