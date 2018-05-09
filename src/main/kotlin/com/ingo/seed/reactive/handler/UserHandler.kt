@@ -22,5 +22,11 @@ class UserHandler(
 
     fun findAll(req: ServerRequest) = ok().json().body(userService.findAll())
 
+
 }
+
+class UserDto(
+
+
+)
 

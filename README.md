@@ -1,6 +1,6 @@
 # Reactive Server
 
-This project purpose is to power the Reactive Server Seed.
+This seed project purpose is to power the Reactive Server.
 
 ## Software design
 
@@ -27,6 +27,7 @@ developed with Spring Boot 2, Spring WebFlux and Kotlin can look like:
 ### TODO
 
  - Support for Spring Cloud
+ - Support for Reactive Security
 
 ## Developer guide
 
