@@ -1,5 +1,7 @@
 # Reactive Server
 
+[中文版](README-CN.md)
+
 This seed project purpose is to power the Reactive Server.
 
 ## Software design
