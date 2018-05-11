@@ -1,11 +1,14 @@
 server:
-  port: 10009
+  port: 8080
 
 spring:
   application:
     name: zhuniu-test-service
   profiles:
     active: dev
+  data:
+      mongodb:
+        host: localhost
 
 encrypt:
   failOnError: false
@@ -18,10 +21,6 @@ info:
     description: 竹牛测试服务
     zookeeper: ${spring.cloud.zookeeper.connectString}
 
-spring:
-  data:
-    mongodb:
-      host: localhost
 logging:
   level:
     root: INFO
@@ -30,5 +29,5 @@ logging:
         web:
           reactive:
             function: INFO
-debug: false
+#debug: false
 

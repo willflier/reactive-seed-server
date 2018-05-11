@@ -101,6 +101,7 @@ dependencies {
 
     compile("org.springframework.cloud:spring-cloud-starter-zookeeper-config")
     compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-hystrix")
 
     testCompile("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit")

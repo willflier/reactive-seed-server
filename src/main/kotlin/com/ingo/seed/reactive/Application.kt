@@ -1,9 +1,13 @@
 package com.ingo.seed.reactive
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.cloud.client.SpringCloudApplication
+import org.springframework.cloud.netflix.hystrix.EnableHystrix
+import org.springframework.transaction.annotation.EnableTransactionManagement
 
-@SpringBootApplication
+@SpringCloudApplication
+@EnableHystrix
+@EnableTransactionManagement
 class Application
 
 fun main(args: Array<String>) {
