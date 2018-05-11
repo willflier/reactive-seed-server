@@ -1,0 +1,34 @@
+server:
+  port: 10009
+
+spring:
+  application:
+    name: zhuniu-test-service
+  profiles:
+    active: dev
+
+encrypt:
+  failOnError: false
+
+info:
+  build:
+    artifact: com.ingo
+    name: ${spring.application.name}
+    version: 1.0.0-SNAPSHOT
+    description: 竹牛测试服务
+    zookeeper: ${spring.cloud.zookeeper.connectString}
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        web:
+          reactive:
+            function: INFO
+debug: false
+

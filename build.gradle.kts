@@ -92,12 +92,15 @@ dependencies {
     compile(kotlin("stdlib"))
     compile(kotlin("reflect"))
     /** End for latest release version **/
-
+    compile("org.springframework.boot:spring-boot-starter-actuator")
     compile("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
     compile("org.springframework.boot:spring-boot-starter-webflux")
     compile("org.springframework.hateoas:spring-hateoas")
     compile("org.springframework.boot:spring-boot-starter-json")
     compile("com.fasterxml.jackson.module:jackson-module-kotlin")
+
+    compile("org.springframework.cloud:spring-cloud-starter-zookeeper-config")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
 
     testCompile("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit")

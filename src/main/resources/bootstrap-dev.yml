@@ -1,0 +1,15 @@
+# 开发环境配置
+spring:
+  cloud:
+    zookeeper:
+      enabled: true
+      connectString: 192.168.0.211:2181,192.168.0.212:2181,192.168.0.213:2181
+      config:
+        enabled: true
+        root: /spring-cloud-config
+        defaultContext: common-config
+        profileSeparator: ','
+
+#eureka:
+#  instance:
+#     prefer-ip-address: false
