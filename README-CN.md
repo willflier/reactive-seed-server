@@ -19,7 +19,7 @@
 
  - 语言: [Kotlin](https://kotlin.link/)
  - 框架: [Spring Boot 2.0](https://projects.spring.io/spring-boot/) 和 [Spring 5 Kotlin support](https://docs.spring.io/spring-framework/docs/5.0.x/spring-framework-reference/kotlin.html) 以及 [Spring WebFlux functional](https://docs.spring.io/spring-framework/docs/5.0.x/spring-framework-reference/reactive-web.html)
- - 引擎: [Netty](http://netty.io/) used for client and server
+ - 引擎: [Netty](http://netty.io/) 用作客户端以及服务端
  - 响应式 API: [Reactor](http://projectreactor.io/)
  - 持久层 : [Spring Data Reactive MongoDB](https://spring.io/blog/2016/11/28/going-reactive-with-spring-data)
  - 构建: [Gradle Script Kotlin](https://github.com/gradle/gradle-script-kotlin)
