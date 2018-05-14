@@ -35,7 +35,7 @@
 
 ### 先决条件
  - 安装 [Git](https://git-scm.com/)
- - [Fork](https://github.com/mix-it/mixit#fork-destination-box) 以及 clone [这个项目](https://github.com/mix-it/mixit)
+ - [Fork](https://git.yingegou.com/open/ingo-seed-reactive-server/forks/new) 以及 clone [这个项目](https://git.yingegou.com/open/ingo-seed-reactive-server.git)
  - [安装 Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### 使用命令行在 ev 模式下运行
