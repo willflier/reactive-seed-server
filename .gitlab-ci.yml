@@ -1,0 +1,22 @@
+stages:
+  - pre-prod_build
+  - pre-prod_test
+  - pre-prod_deploy
+  - prod_build
+  - prod_test
+  - prod_deploy
+##======================测试环境=====================
+pre-prod_build:
+  stage: pre-prod_build
+
+
+pre-prod_deploy:
+  stage: pre-prod_deploy
+
+
+##======================生产环境=====================
+
+
+
+
+
