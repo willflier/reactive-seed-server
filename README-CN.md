@@ -19,7 +19,7 @@
 
  - 语言: [Kotlin](https://kotlin.link/)
  - 框架: [Spring Boot 2.0](https://projects.spring.io/spring-boot/) 和 [Spring 5 Kotlin support](https://docs.spring.io/spring-framework/docs/5.0.x/spring-framework-reference/kotlin.html) 以及 [Spring WebFlux functional](https://docs.spring.io/spring-framework/docs/5.0.x/spring-framework-reference/reactive-web.html)
- - 引擎: [Netty](http://netty.io/) used for client and server
+ - 引擎: [Netty](http://netty.io/) 用作客户端以及服务端
  - 响应式 API: [Reactor](http://projectreactor.io/)
  - 持久层 : [Spring Data Reactive MongoDB](https://spring.io/blog/2016/11/28/going-reactive-with-spring-data)
  - 构建: [Gradle Script Kotlin](https://github.com/gradle/gradle-script-kotlin)
@@ -35,7 +35,7 @@
 
 ### 先决条件
  - 安装 [Git](https://git-scm.com/)
- - [Fork](https://github.com/mix-it/mixit#fork-destination-box) 以及 clone [这个项目](https://github.com/mix-it/mixit)
+ - [Fork](https://git.yingegou.com/open/ingo-seed-reactive-server/forks/new) 以及 clone [这个项目](https://git.yingegou.com/open/ingo-seed-reactive-server.git)
  - [安装 Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### 使用命令行在 ev 模式下运行

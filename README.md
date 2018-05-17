@@ -36,7 +36,7 @@ developed with Spring Boot 2, Spring WebFlux and Kotlin can look like:
 
 ### Prerequisite
  - Install [Git](https://git-scm.com/)
- - [Fork](https://github.com/mix-it/mixit#fork-destination-box) and clone [the project](https://github.com/mix-it/mixit)
+ - [Fork](https://git.yingegou.com/open/ingo-seed-reactive-server/forks/new) and clone [这个项目](https://git.yingegou.com/open/ingo-seed-reactive-server.git)
  - [Install Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 ### Run the app in dev mod using command line

@@ -1,0 +1,23 @@
+stages:
+  - pre-prod_build
+
+##======================测试环境=====================
+pre-prod_build:
+  stage: pre-prod_build
+  script:
+    - ./gradlew clean build
+  only:
+    - /^test-.*$/
+  tags:
+    - pre-prod
+  artifacts:
+      paths:
+      - target/*.jar
+
+
+##======================生产环境=====================
+
+
+
+
+
