@@ -5,7 +5,7 @@ stages:
 pre-prod_build:
   stage: pre-prod_build
   script:
-    - gradle build
+    - ./gradlew clean build
   only:
     - /^test-.*$/
   tags:
